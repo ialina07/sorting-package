@@ -1,4 +1,4 @@
-from sorting_algorithms import bubble_sort
+from src.sorting_algorithms import bubble_sort
 
 def test_empty_list():
     assert bubble_sort([]) == []
