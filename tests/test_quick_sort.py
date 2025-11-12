@@ -1,4 +1,4 @@
-from sorting_algorithms import quick_sort
+from src.sorting_algorithms import quick_sort
 
 def test_empty_list():
     assert quick_sort([]) == []
