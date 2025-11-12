@@ -1,4 +1,4 @@
-from sorting_algorithms import heap_sort
+from src.sorting_algorithms import heap_sort
 
 def test_empty_list():
     assert heap_sort([]) == []
