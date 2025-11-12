@@ -1,4 +1,4 @@
-from sorting_algorithms import merge_sort
+from src.sorting_algorithms import merge_sort
 
 def test_empty_list():
     assert merge_sort([]) == []
